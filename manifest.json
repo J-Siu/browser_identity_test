@@ -1,0 +1,19 @@
+{
+	"author": "JSiu.Dev",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "browser.identity.test@jsiu.dev"
+		}
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"description": "Test browser identity api",
+	"manifest_version": 2,
+	"name": "BrowserIdentityTest",
+	"permissions": [
+		"identity"
+	],
+	"short_name": "BrowserIdentityTest",
+	"version": "1.0.0"
+}
